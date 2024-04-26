@@ -12,19 +12,17 @@ const Nav = ({search, setSearch, searchproduct}) => {
     <>
     <div className='header'>
         <div className='top_header'>
-            <div className='icon'>
-                <MdLocalShipping />
-            </div>
             <div className='info'>
-                <p>Free Shipping When Shopping upto $1000</p>
+                <p><marquee behavior="scroll" direction="left" scrollamount="15">IIITL Tech Exchange : Borrow, Share, and
+                Upgrade Your Tech Within Our Campus</marquee></p>
             </div>
         </div>
         <div className='mid_header'>
           <div className='logo'>
-            <img src='image/innov.jpg'width={100}height={50} alt='logo'></img>
+            <img src='image/innov.jpg'width={60}height={60} alt='logo'></img>
           </div>
           <div className='search_box'>
-            <input type='text' value={search} placeholder='search' onChange={(e) => setSearch(e.target.value)}></input>
+            <input type='text' value={search} placeholder='Get your Products here' onChange={(e) => setSearch(e.target.value)}></input>
             <button onClick={searchproduct}><AiOutlineSearch /></button>
           </div>
           {
@@ -85,7 +83,7 @@ const Nav = ({search, setSearch, searchproduct}) => {
             </ul>
           </div>
           <div className='offer'>
-            <p>flat 10% over all iphones</p>
+            <p>Buy/Rent your Gadgets Now</p>
           </div>
         </div>
     </div>

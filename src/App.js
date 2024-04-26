@@ -51,7 +51,7 @@ const App = () => {
     })
     if(exist)
     {
-      alert("This product is alleardy added in cart")
+      alert("This product is already added in cart")
     }
     else
     {

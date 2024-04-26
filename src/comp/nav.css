@@ -5,6 +5,14 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
+
+p{
+    font-family: 25px;
+    justify-content: right;
+    align-items: right;
+    
+}
+
 .header
 {
     width: 100%;
@@ -14,14 +22,14 @@
     max-width: 100%;
     display: flex;
     padding: 10px 10px;
-    background: #f6f7f8;
+    background: #000000;
 }
-.header .top_header .icon
+/* .header .top_header .icon
 {
     margin-left: 20px;
     color: #ababab;
     font-size: 19px;
-}
+} */
 .header .top_header .info p
 {
     margin-left: 10px;

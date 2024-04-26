@@ -16,15 +16,7 @@ const Footer = () => {
                         <p>You have Great savings on all products</p>
                     </div>
                 </div>
-                    <div className='box'>
-                    <div className='icon_box'>
-                        <FaShippingFast />
-                    </div>
-                    <div className='detail'>
-                        <h3>free delivery</h3>
-                        <p>Free delivery available for selected areas.</p>
-                    </div>
-                </div>
+                    
                 <div className='box'>
                     <div className='icon_box'>
                         <FaHeadphonesAlt />
@@ -40,14 +32,14 @@ const Footer = () => {
                     </div>
                     <div className='detail'>
                         <h3>money back</h3>
-                        <p>dont worry we have return money feature.</p>
+                        <p>Don't worry we have our Refund Guarantee  </p>
                     </div>
                 </div>
             </div>
             <div className='right_box'>
                 <div className='header'>
                     <img src='image/innov.jpg' width={80}alt=''></img>
-                    <p>Any gadgets any time any where only Innov8tive</p>
+                    <p>Get your required gadgets anytime with INNOV8IVE</p>
                 </div>
                 <div className='bottom'>
                     <div className='box'>
