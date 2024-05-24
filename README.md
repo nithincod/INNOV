@@ -1,7 +1,5 @@
 Welcome to our project INNOV8TIVE.
 
-Teststack:
-1 React
 
 # INNOV8IVE
 
@@ -14,9 +12,7 @@ INNOV8IVE is a unique e-commerce platform that connects students in nearby commu
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
+  
 ## Introduction
 
 INNOV8IVE addresses the following problems:
@@ -114,6 +110,8 @@ Our solution:
 
 5. **Review and Rate**:
    - After using a product, leave a review and rate the experience.
+
+
 
 
 
